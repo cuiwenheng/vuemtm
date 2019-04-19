@@ -162,7 +162,7 @@
                     if(res.nologin){
                         window.location.href='/wxview';
                     }else{
-                        window.location.href="/wechat/member/da"
+                        window.location.href="/wechat/member/analysisresult?mid="+this.mid;
                     }
                 })
                 .catch((reject) => {

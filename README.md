@@ -28,3 +28,7 @@ npm test
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+重要！！！！！！！！！！！！！！！！！！
+
+由于出生日期要在2000年前所以修改了node_modoules/vux/src/components/datetime/datetimepicker.js文件的第49行由2000改为了1900。
